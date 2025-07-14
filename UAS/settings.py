@@ -9,17 +9,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 # Aplikasi yang digunakan
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'rest_framework',  # DRF
-    'api',             # app API
-    'config',          # app Model
-    'frontend',        # app Frontend
+tend
 ]
 
 # Middleware
@@ -62,7 +52,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'FSWD',
         'USER': 'django_user',
-        'PASSWORD': 'YourStrongPassword123!',
+        'PASSWORD': 'your_secure_password',
         'HOST': '34.101.73.161',
         'PORT': '3306',
     }
